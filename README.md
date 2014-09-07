@@ -7,6 +7,17 @@ Installation
 -------------
 
 1. Add LogLikeRails as a requirement to composer.json:
+```
+{
+  ...
+  "require": {
+    ...
+    "mic/log-like-rails": "dev-master"
+    ...
+  },
+}
+```
+
 2. Update composer:
 ```
 	php composer.phar update
@@ -21,4 +32,9 @@ Installation
     'Mic\LogLikeRails\LogLikeRailsServiceProvider',
     
   ),
+```
+
+4. Publish package config
+```
+	php artisan config:publish mic/log-like-rails
 ```
