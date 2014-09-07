@@ -1,0 +1,23 @@
+{
+    "name": "mic/log-like-rails",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mic",
+            "email": "kittiphong.mic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mic\\LogLikeRails\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
