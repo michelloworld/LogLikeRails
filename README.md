@@ -6,7 +6,7 @@ A package for Laravel 4 to log every requests like Ruby On Rails
 Installation
 -------------
 
-1. Add LogLikeRails as a requirement to composer.json:
+Add LogLikeRails as a requirement to composer.json:
 ```
 {
   ...
@@ -18,12 +18,12 @@ Installation
 }
 ```
 
-2. Update composer:
+Update composer:
 ```
 	php composer.phar update
 ```
 
-3. Add the provider to your app/config/app.php
+Add the provider to your app/config/app.php:
 ```
   'providers' => array(
   
@@ -34,7 +34,7 @@ Installation
   ),
 ```
 
-4. Publish package config
+Publish package config:
 ```
 	php artisan config:publish mic/log-like-rails
 ```
