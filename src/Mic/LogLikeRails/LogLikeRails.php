@@ -52,6 +52,10 @@ class LogLikeRails {
 			}
 		}
 
+		
+		// set thie to true if you want to log sql in every requests
+		// 'log_sql' => false,
+
 		// // log sql
 		// if(Config::get('log-like-rails::log_sql')) {
 		// 	Event::listen('illuminate.query', function($query, $params, $time, $conn) use($inputSafe) {
