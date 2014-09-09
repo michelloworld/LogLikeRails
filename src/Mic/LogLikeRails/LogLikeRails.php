@@ -15,14 +15,13 @@ class LogLikeRails {
 		}
 		
 		$path = Request::path();
-		$route = Route::currentRouteName();
+		$route = Route::currentRouteAction();
 		$ip = Request::getClientIp();
 		$method = Request::method();
 
 		$msg = array(
 			'Processing',
-			$route,
-			$path,
+			(empty($route) ? $path : $route),
 			'(for ' . $ip . ')',
 			'['.$method.']'
 		);

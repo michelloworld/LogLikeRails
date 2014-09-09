@@ -29,7 +29,7 @@ class LogLikeRailsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['router']->before(function($req) {
+		$this->app['router']->after(function($req) {
 			LogLikeRails::log();
 		});
 	}
