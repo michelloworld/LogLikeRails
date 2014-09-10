@@ -1,6 +1,7 @@
 {
     "name": "mic/log-like-rails",
-    "description": "",
+    "description": "A package for Laravel 4 to log every requests and input like Ruby On Rails.",
+    "keywords": ['laravel, 'log', 'log like rails', 'log request', 'log input', 'ruby on rails'],
     "authors": [
         {
             "name": "Mic",

@@ -1,7 +1,7 @@
 Laravel 4 - LogLikeRails
 ===================
 
-A package for Laravel 4 to log every requests like Ruby On Rails.
+A package for Laravel 4 to log every requests and input like Ruby On Rails.
 
 ##### *** YOU DON'T HAVE TO ADD LOG BY YOURSELF. THIS PACKAGE WILL LOG EVERY REQUEST.
 
